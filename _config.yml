@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:              http://localhost:4000
+title:            Developer de Pueblo
+locale:           es_ES
+url:              http://blog.developerdepueblo.com
 
 
 # Jekyll configuration
@@ -26,25 +26,25 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jose Ignacio Andrés
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
+  bio: "Trabajo como CTO & developer en <a href='https://twitter.com/dokify'>@dokify</a>, soy de <a href='https://www.google.es/maps/place/37521+Robleda,+Salamanca/@40.3518378,-6.6052238,3987a,20y,40.83t/data=!3m1!1e3!4m2!3m1!1s0xd3dcdc761c96a6f:0x490862031a1db018' target='_blank'>Robleda</a> y trato de aprender algo nuevo cada día."
+  email: joseignacio.andres.h@gmail.com
+  disqus-shortname:
+  twitter: joserobleda
   facebook: #username
   google:
-    plus: #username
-    analytics: 
+    plus: JoseIgnacioAndres
+    analytics: UA-54327363-1
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  lastfm: #username
+  github: joserobleda
+  stackoverflow: http://stackoverflow.com/users/1811887/joserobleda
+  linkedin: jose-ignacio-andres
+  instagram: joserobleda
+  lastfm: joserobleda
   tumblr: #username
   pinterest: #username
   foursquare: #username
