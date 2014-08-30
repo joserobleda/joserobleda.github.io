@@ -1,25 +1,24 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, responsive]
+title: About
+tags: [about]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: keys.jpg
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+Esto mas que un blog es un intento de blog.
 
-## Minimal Mistakes is all about:
+## Qué te puedes encontrar aquí?
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+Más o menos lo que pongo en twitter, pero en versión extendida.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+* Cosas que considero interesantes en mi día a día como programador
+* Articulos o noticias relacionadas con el mundo de la tecnología
+* Seguramente algo de humor friki
+* Alguna que otra cosa sobre productividad, empresas, emprendedores y todo ese bullshit
+* Probablemente cualquier cosa que me apetezca escribir, que para eso es mi blog ;)
+* Faltas de ortografía :) Seguro que escribir más hará que ponga menos.
+
+Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.
