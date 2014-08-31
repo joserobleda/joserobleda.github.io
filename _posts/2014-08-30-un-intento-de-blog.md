@@ -4,7 +4,7 @@ title: "Un Intento De Blog"
 modified:
 comments: true
 categories:
-excerpt:
+excerpt: "En el peor momento, antes de tomarme unos días de vacaciones, me da por empezar un blog. Creo qué es lo que recomiendan si quieres abandonarlo en el primer post."
 tags: []
 date: 2014-08-30T18:30:07+02:00
 ---
