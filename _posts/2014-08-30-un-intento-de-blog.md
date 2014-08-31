@@ -15,4 +15,7 @@ Habrá quién piense, pués no tendrá nada que hacer el tio este como para escr
 
 Soy muy consciente de que puede que yo sea el único que lea estos párrafos, pero dado que la motivación es mas de escribir que de ser leido no le veo mayor problema :)
 
-Aprovecho este primer post un saludo a mis compañeros de [@dokify](https://twitter.com/dokify), que serán los que sufran mis primeros "ey, has leido mi blog, lo has visto????".
+Aprovecho este primer post para envíar un saludo a mis compañeros de [@dokify](https://twitter.com/dokify), que serán los que sufran mis primeros "ey, has leido mi blog, lo has visto????, e!? e!? e?!". Ya visualizo sus reacciones...
+
+
+![flipaaa](http://i.imgur.com/xmBjXcm.gif)
