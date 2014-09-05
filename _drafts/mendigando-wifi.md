@@ -2,9 +2,45 @@
 layout: post
 title: "Mendigando Wifi"
 ---
-La semana pasada estuve en Oporto, con el modo turista "on". Como me gusta usar foursquare, yelp y demás apps, voy mendigando wifi.
+La semana pasada estuve en Oporto, con el modo turista "on". Como me gusta usar foursquare, yelp y demás apps para localizar sitios que merecen la pena, voy mendigando wifi. Me ha parecido curioso la de puntos WiFi que tienen habilitados para el acceso libre, es casi como tener conexión de datos, sobre todo en la zona centro, aunque obviamente la cobertura no es 100%.
 
-https://play.google.com/store/apps/details?id=io.wifimap.wifimap
+Es curioso como en casi todos los locales que entras anuncian que tienen wifi. Lo tienen ahí tirado, entre las francesinha's y las bifanas. Entiendo que esto se debe a que es una ciudad muy turística. En algunos de estos sitios tenían carteles para que vieras cual es el nombre de su red y su password, aunque en muchos simplemente preguntando a la persona que te atiende te dan la clave. Que el 90% de las veces, como es lógico, es el mismo nombre del local.
+
+Entonces pensé: *ey, quizás podría hacer **una app en la que todo el mundo fuera apuntando los nombres de las redes wifi con sus password y que se auto-conectara a ellas** con la información de esa base de datos, ¿no?, me parece una buena idea...* Aunque un instante después pensé, *bah.. no soy el primero al que se le ocurre esto...* Así que voy a investigar un poco a ver que encontramos.
+
+#### WiFiMap
+
+![](http://www.wifimap.io/assets/2-iphone-right-6b1ae3901ff2eef62ebcb89c97e2db9b.png)
+
+La primera opción que he encontrado me parece muy interesante, se llama [WiFiMap](http://www.wifimap.io/) y tiene versión para iPhone y Android. Dicen tener más de 1.200.000 redes en su base de datos y más de 2.000.000 de descargas en la App Store. Su modelo de negocio es Freemium, en la versión free parece que te dejan hacer de todo, salvo tener la base de datos en local para poder realizar búsquedas y consultar el mapa. En la versión free si tendremos la opción de listar, que resulta mas que suficiente en la mayoría de los casos.
+
+#### 4sqwifi
+
+También encontré una app de Foursquare, [4sqwifi](http://4sqwifi.com/) de la que no voy a hablar mucho, por que me parece que está bastante muerta.
+
+#### WiFi Finder
+
+Posiblemente lo que menos me guste de [WiFi Finder](https://play.google.com/store/apps/details?id=com.jiwire.android.finder) es su diseño.
+
+#### WiFi Opener
+
+![wifi-opener-index](http://opengarden.com/images/d55aaeb7.background.svg)
+
+La siguiente en mi lista es [Wifi Opener](https://play.google.com/store/apps/details?id=com.opengarden.wifiopener), de [OpenGarden](http://opengarden.com/). Se posicionan como una compañia especializada en mejorar nuestra conectividad estemos dónde estemos.
+
+Tiene buena pinta en un inicio, pero cuando estas conectado a una WiFi y quieres usar la aplicación esta te indica que estás conectado a una red, y cuando no estás conectado, entonces te indica que debes tener conexión a internet para usarla... **O_o**
+
+Intuyo que está pensado para ahorrar tarifa de datos, pero queda descartado el uso que planteo en este post. No parece que el eslogan de esta empresa está muy alineado con su app.
+
+#### Osmino
+
+![osmino](/images/osmino-wifi.png)
+
+Me costó encontrarla, quizás por que [su web](http://store.osmino.com/apps/osmino-wi-fi/), a mi entender, no transmite bien lo que hacen (chistaco!). En play store parece que [Osmino](https://play.google.com/store/apps/details?id=com.osmino.wifil) ha sido descargado más de 5.000.000 de veces! Con lo que es de suponer que su base de datos será de las más grandes, sin embargo, en mis pruebas con esta app no he tenido suerte. La app tiene publiciad y podremos eliminarla por 4,41€
 
 
-http://4sqwifi.com/
+---
+
+Como conclusión basta con decir que en mi móvil solo quedará instalada **WiFiMap** y el resto puede que las revise nuevamente para el próximo viaje. Si no nos gusta ninguna de las opciones, siempre podemos pasar del móvil, que tampoco está mal, [hacer el mal](http://www.wikihow.com/Hack-Wi-Fi-Using-Android) o comprar una SIM para esos días.
+
+¿Algo que añadir?
