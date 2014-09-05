@@ -16,11 +16,13 @@ La primera opción que he encontrado me parece muy interesante, se llama [WiFiMa
 
 #### 4sqwifi
 
-También encontré una app de Foursquare, [4sqwifi](http://4sqwifi.com/) de la que no voy a hablar mucho, por que me parece que está bastante muerta.
+También encontré una app de Foursquare, [4sqwifi](http://4sqwifi.com/) de la que no voy a hablar mucho, por que me parece que está bastante muerta. Quizás sea cosa de la versión para android... *¿Alguien con iPhone por aquí?*
 
 #### WiFi Finder
 
 Posiblemente lo que menos me guste de [WiFi Finder](https://play.google.com/store/apps/details?id=com.jiwire.android.finder) es su diseño.
+
+![wifi-finder](/images/wifi-finder.png)
 
 #### WiFi Opener
 
