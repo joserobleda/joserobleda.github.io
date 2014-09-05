@@ -16,11 +16,16 @@ La primera opción que he encontrado me parece muy interesante, se llama [WiFiMa
 
 #### 4sqwifi
 
-También encontré una app de Foursquare, [4sqwifi](http://4sqwifi.com/) de la que no voy a hablar mucho, por que me parece que está bastante muerta. Quizás sea cosa de la versión para android... *¿Alguien con iPhone por aquí?*
+![foursquare-banner](/images/foursquare-banner.jpg)
+
+También encontré una app de [Foursquare](https://foursquare.com/), [4sqwifi](http://4sqwifi.com/) de la que no voy a hablar mucho, por que me parece que está bastante muerta. Quizás sea cosa de la versión para android (*¿Alguien con iPhone por aquí?*) o quizás sea por que hay mucha gente que pone un tip en el própio foursquare para poner la wifi. Me he encontrado al menos 5 o 6 ejemplos en este viaje.
+
 
 #### WiFi Finder
 
-Posiblemente lo que menos me guste de [WiFi Finder](https://play.google.com/store/apps/details?id=com.jiwire.android.finder) es su diseño.
+Posiblemente lo que menos me guste de [WiFi Finder](https://play.google.com/store/apps/details?id=com.jiwire.android.finder) es su diseño. Y quizás por esto mismo siempre he optado por las otras apps antes que utilizar esta.
+
+Sin embargo las veces que he probado suerte con ella parece que tiene una buena base de datos. Una funcionalidad interesante es la opción autoconectar, que busca redes disponibles, es decir, sin clave o con clave pero en su bbdd, para conectar nuestro dispositivo de forma automática. Esto puede llegar a ser molesto, ya que si ve un red cualquiera abierta se conectará, aunque esta red luego requiera de autenticación, y nos quedaremos en una situación en la que la app cree que está conectada, y sin embargo no lo está. Esto pasa mucho con redes como la de [fon](https://corp.fon.com/es).
 
 ![wifi-finder](/images/wifi-finder.png)
 
