@@ -45,6 +45,10 @@ Intuyo que está pensado para ahorrar tarifa de datos, pero queda descartado el 
 
 Me costó encontrarla, quizás por que [su web](http://store.osmino.com/apps/osmino-wi-fi/), a mi entender, no transmite bien lo que hacen (chistaco!). En play store parece que [Osmino](https://play.google.com/store/apps/details?id=com.osmino.wifil) ha sido descargado más de 5.000.000 de veces! Con lo que es de suponer que su base de datos será de las más grandes, sin embargo, en mis pruebas con esta app no he tenido suerte. La app tiene publiciad y podremos eliminarla por 4,41€
 
+#### Fon
+
+El caso de fon es algo diferente, [tienen app para iPhone y Android](https://corp.fon.com/en#home_download), pero mas que su app es su modelo de negocio lo que podría interesarnos.
+
 
 ---
 
