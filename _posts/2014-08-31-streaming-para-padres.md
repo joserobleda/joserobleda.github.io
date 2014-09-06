@@ -8,7 +8,7 @@ excerpt: "Llevo unos días dándole vueltas a un asunto: Cómo conseguir que tus
 tags: ["tecnología", "streaming", "popcorn", "series", "video"]
 image:
   feature:
-date: 2014-09-04T12:00:00+02:00
+date: 2014-09-06T10:00:00+02:00
 ---
 
 Llevo unos días dándole vueltas a un asunto: *Cómo conseguir que tus padres¹ adopten un sistema de streaming para ver contenidos*.
