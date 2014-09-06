@@ -3,6 +3,7 @@ layout: post
 title: "Streaming Para Padres"
 modified:
 categories:
+comments: true
 excerpt: "Llevo unos días dándole vueltas a un asunto: Cómo conseguir que tus padres adopten un sistema de streaming para ver contenidos."
 tags: ["tecnología", "streaming", "popcorn", "series", "video"]
 image:
