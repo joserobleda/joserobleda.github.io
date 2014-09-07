@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Así Serán Los Módulos en ECMAScript 6"
+title: "Así serán los módulos en ECMAScript 6"
 date: 2014-09-07T18:52:26+02:00
 comments: true
 ---
