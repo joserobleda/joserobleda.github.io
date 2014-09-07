@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Así Serán Los Módulos en ECMAScript 6"
+date: 2014-09-07T18:52:26+02:00
+comments: true
 ---
 
-Parece que ya tenemos la versión definitiva de como se trabajará con módulos en ECMAScript 6. Según cuenta [Axel Rauschmayer](http://rauschma.de/) se ha buscado lo mejor de los dos sistemas que se usan actualmente:
+Parece que ya tenemos la versión definitiva de como se trabajará con módulos en **ECMAScript 6**. Según cuenta [Axel Rauschmayer](http://rauschma.de/) se ha buscado lo mejor de los dos sistemas que se usan actualmente:
 
 - La versión de servidor ([CommonJS Modules](http://spinejs.com/docs/commonjs)), que estaremos acostumbrados a ver en [NodeJS](http://nodejs.org/)
 - La versión para browsers ([AMD](http://en.wikipedia.org/wiki/Asynchronous_module_definition)), que usan librerías como [RequireJS](http://requirejs.org/)
