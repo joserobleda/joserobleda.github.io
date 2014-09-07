@@ -2,11 +2,18 @@
 layout: post
 title: "Mendigando Wifi"
 ---
-La semana pasada estuve en Oporto, con el modo turista "on". Como me gusta usar foursquare, yelp y demás apps para localizar sitios que merecen la pena, voy mendigando wifi. Me ha parecido curioso la de puntos WiFi que tienen habilitados para el acceso libre, es casi como tener conexión de datos, sobre todo en la zona centro, aunque obviamente la cobertura no es 100%.
+La semana pasada estuve en Oporto, con el modo turista "on". Como me gusta usar foursquare, yelp y y cualquier otra app que ofrezca reviews, voy mendigando wifi.
 
-Es curioso como en casi todos los locales que entras anuncian que tienen wifi. Lo tienen ahí tirado, entre las francesinha's y las bifanas. Entiendo que esto se debe a que es una ciudad muy turística. En algunos de estos sitios tenían carteles para que vieras cual es el nombre de su red y su password, aunque en muchos simplemente preguntando a la persona que te atiende te dan la clave. Que el 90% de las veces, como es lógico, es el mismo nombre del local.
+<blockquote class="twitter-tweet" lang="es"><p>Actualización de la pirámide de la realización personal <a href="http://t.co/79TPVjdmCX">pic.twitter.com/79TPVjdmCX</a></p>&mdash; Berto Romero (@Berto_Romero) <a href="https://twitter.com/Berto_Romero/status/508384010134093825">septiembre 6, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Entonces pensé: *ey, quizás podría hacer **una app en la que todo el mundo fuera apuntando los nombres de las redes wifi con sus password y que se auto-conectara a ellas** con la información de esa base de datos, ¿no?, me parece una buena idea...* Aunque un instante después pensé, *bah.. no soy el primero al que se le ocurre esto...* Así que voy a investigar un poco a ver que encontramos.
+<br />
+
+Me ha parecido curioso la de puntos WiFi que tienen habilitados para el acceso libre, en ocasiones es casi como tener conexión de datos, sobre todo en la zona centro, aunque obviamente la cobertura esta muy lejos de ser del 100%.
+
+Es curioso como en casi todos los locales que entras anuncian que tienen wifi. *Lo tienen ahí tirado, entre las francesinha's y las bifanas.* Entiendo que esto se debe a que es una ciudad muy turística. En algunos de estos sitios tenían carteles para que vieras cual es el nombre de su red y su password, aunque en muchos simplemente preguntando a la persona que te atiende te dan la clave. El 90% de las veces, como es lógico, es el mismo nombre del local.
+
+Entonces pensé: *ey, quizás podría hacer **una app en la que todo el mundo fuera apuntando los nombres de las redes wifi con sus password y que se auto-conectara a ellas** con la información de esa base de datos, ¿no?, me parece una buena idea...* Aunque un instante después pensé, *bah.. no soy el primero al que se le ocurre esto...* Así que voy a investiggué un poco. Aquí os dejo la comparativa:
 
 #### WiFiMap
 
@@ -25,7 +32,7 @@ También encontré una app de [Foursquare](https://foursquare.com/), [4sqwifi](h
 
 Posiblemente lo que menos me guste de [WiFi Finder](https://play.google.com/store/apps/details?id=com.jiwire.android.finder) es su diseño. Y quizás por esto mismo siempre he optado por las otras apps antes que utilizar esta.
 
-Sin embargo las veces que he probado suerte con ella parece que tiene una buena base de datos. Una funcionalidad interesante es la opción autoconectar, que busca redes disponibles, es decir, sin clave o con clave pero en su bbdd, para conectar nuestro dispositivo de forma automática. Esto puede llegar a ser molesto, ya que si ve un red cualquiera abierta se conectará, aunque esta red luego requiera de autenticación, y nos quedaremos en una situación en la que la app cree que está conectada, y sin embargo no lo está. Esto pasa mucho con redes como la de [fon](https://corp.fon.com/es).
+Sin embargo, las veces que he probado suerte con ella, parece que tiene una buena base de datos. Una funcionalidad interesante es la opción autoconectar, que busca redes disponibles, es decir, sin clave o que disponga de esta en su bbdd, para así poder conectar nuestro dispositivo de forma automática. Esto puede llegar a ser molesto, ya que si ve un red cualquiera abierta se conectará, aunque esta red luego requiera de autenticación, y nos quedaremos en una situación en la que la app cree que está conectada, y sin embargo no lo está. Esto pasa mucho con redes como la de [fon](https://corp.fon.com/es).
 
 ![wifi-finder](/images/wifi-finder.png)
 
@@ -37,7 +44,7 @@ La siguiente en mi lista es [Wifi Opener](https://play.google.com/store/apps/det
 
 Tiene buena pinta en un inicio, pero cuando estas conectado a una WiFi y quieres usar la aplicación esta te indica que estás conectado a una red, y cuando no estás conectado, entonces te indica que debes tener conexión a internet para usarla... **O_o**
 
-Intuyo que está pensado para ahorrar tarifa de datos, pero queda descartado el uso que planteo en este post. No parece que el eslogan de esta empresa está muy alineado con su app.
+Intuyo que está pensado para ahorrar tarifa de datos, pero queda descartado el uso que planteo en este post. No parece que el eslogan de esta empresa esté muy alineado con su app.
 
 #### Osmino
 
@@ -47,7 +54,14 @@ Me costó encontrarla, quizás por que [su web](http://store.osmino.com/apps/osm
 
 #### Fon
 
-El caso de fon es algo diferente, [tienen app para iPhone y Android](https://corp.fon.com/en#home_download), pero mas que su app es su modelo de negocio lo que podría interesarnos.
+
+![fon](/images/fonera32.jpg)
+
+El caso de fon es algo diferente, [tienen app para iPhone y Android](https://corp.fon.com/en#home_download), pero mas que su app, que es totalmente opcional, es su modelo de negocio lo que podría interesarnos.
+
+Comprar el router de fon, la "*fonera*", nos costará 39€ y nos dará acceso a cualquier red fon de todo el mundo. Esto conlleva que nosotros mismo **compartieremos el ancho de banda que no usemos** de nuestra conexión de casa. No tengo muy claro como se aseguran de que estamos compartiend nuestra red, imagino que una vez que te llega el route tu cuenta queda asociada al aparato para verificar que está compartiendo.
+
+Esta opción puede ser muy interesante, sobre todo si sueles viajar mucho. [Aquí](https://corp.fon.com/es/how-it-works) puedes encontrar más información.
 
 
 ---
