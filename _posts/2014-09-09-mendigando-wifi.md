@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Mendigando Wifi"
+date: 2014-09-09T08:19:26+02:00
+comments: true
 ---
 La semana pasada estuve en Oporto, con el modo turista "on". Como me gusta usar foursquare, yelp y y cualquier otra app que ofrezca reviews, voy mendigando wifi.
 
