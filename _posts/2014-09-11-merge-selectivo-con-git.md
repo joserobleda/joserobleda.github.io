@@ -61,4 +61,10 @@ git commit -p
 {% endhighlight %}
 
 
+Todo esto se podria simplificar en:
+
+{% highlight css %}
+git checkout source_branch <paths>... -p
+{% endhighlight %}
+
 Y vosotros... **¿Tenéis este problema? ¿Qué solución le habéis dado?**
