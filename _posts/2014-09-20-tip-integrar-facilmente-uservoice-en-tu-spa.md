@@ -19,7 +19,7 @@ Una de las cualidades que hace a este servicio popular es que para integrarlo en
 <a href="mailto:soporte@mycoolapp.com" data-uv-trigger>Contact</a>
 {% endhighlight %}
 
-Pero... ¿qué ocurre si lo dónde queremos integrar no es una web al uso? A día de hoy seguro que muchos trabajáis desarrollando [SPA](http://en.wikipedia.org/wiki/Single-page_application). Cuando carguemos contenido de forma dinámica añadir marcado a nuestro HTML **no funciona**.
+Pero... ¿qué ocurre si donde lo queremos integrar no es una web al uso? A día de hoy seguro que muchos trabajáis desarrollando [SPA](http://en.wikipedia.org/wiki/Single-page_application). Cuando carguemos contenido de forma dinámica, añadir marcado a nuestro HTML **no funciona**.
 
 ##### Opciones
 
@@ -40,7 +40,7 @@ UserVoice.push(['addTrigger', '#contact_us', {
 }]);
 {% endhighlight %}
 
-Ponemos este pequeño código allí dónde cambiemos el contenido de nuestro HTML y listo, problema resuelto. Por ejemplo:
+Ponemos este pequeño código allí donde cambiemos el contenido de nuestro HTML y listo, problema resuelto. Por ejemplo:
 
 {% highlight css %}
 // view:change is a custom event fired every time our HTML changes
@@ -55,7 +55,7 @@ Pero no es un resultado que me guste al 100%, debido a que si usamos los atribut
 
 ##### Solución
 
-He tenido que buscar en el script JS ofuscado para encontrar la que para mi es la mejora solución, ya que no viene documentada en la web de UserVoice:
+He tenido que buscar en el script JS ofuscado para encontrar la que para mi es la mejor solución, ya que no viene documentada en la web de UserVoice:
 
 {% highlight css %}
 UserVoice.scan();
