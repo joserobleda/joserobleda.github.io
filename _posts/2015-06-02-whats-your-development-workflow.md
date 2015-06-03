@@ -46,7 +46,7 @@ Now you have a few options to go and a reasonable perception of how hard to impl
 
 A list of pros and cons will make easier to decide. Also, you can, and maybe you should, have a meeting with any others involved. They can give you others points of view to make the smarter choice possible.
 
-Of course there will be a lot of times when not everybody will agree on which is the best option to go, but you have the responsibility to make consensus on what to do, even if there are people who thinks there are better options. I think this is hard, but it's worths it. This does not mean that everyone agrees with your vision, but to make sure they all know the "why". Even if you don't think the same way there are red lines from you and form others you'll never cross if consensuous is necessary. **It is not a guarantee of the best choice, but makes a safer choice**.
+Of course there will be a lot of times when not everybody will agree on which is the best option to go, but you have the responsibility to make consensus on what to do, even if there are people who thinks there are better options. I think this is hard, but it's worth it. This does not mean that everyone agrees with your vision, but to make sure they all know the "why". Even if you don't think the same way there are red lines from you and form others you'll never cross if consensuous is necessary. **It is not a guarantee of the best choice, but makes a safer choice**.
 
 Now you have **the way to go**.
 
