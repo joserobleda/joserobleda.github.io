@@ -1,6 +1,7 @@
 # Site wide configuration
 
 title:            Jose Ignacio Andrés - Developer de Pueblo
+home:             Developer de Pueblo
 locale:           es_ES
 url:              http://www.developerdepueblo.com
 #url:              http://localhost:4000
