@@ -34,7 +34,7 @@ Do not think technically here. I think the most important thing in the first ste
 
 ### 2. Read and measure
 
-Without discard any of the generated ideas make an initial check against your possibilities.
+Without discarding any of the generated ideas make an initial check against your possibilities.
 
 **Read the headlines of your codebase**. Usually the way you write a feature will be based upon existing code, and that should not prevent you doing things in any form, but lets you know if a refactor will be needed to make the change, and allows you to consider the time to do it. With that early information, you will be able to determine more precisely the time needed to finish the task if you go through that way.
 
@@ -46,7 +46,7 @@ Now you have a few options to go and a reasonable perception of how hard to impl
 
 A list of pros and cons will make easier to decide. Also, you can, and maybe you should, have a meeting with any others involved. They can give you others points of view to make the smarter choice possible.
 
-Of course there will be a lot of times when not everybody will agree on which is the best option to go, but you have the responsibility to make consensus on what to do, even if there are people who thinks there are better options. I think this is hard, but it worths it. This don't mean to get everybody agree with your vision, but to make sure they all know the "why". Even if you don't think the same way there are red lines from you and form others you'll never cross if consensuous is necessary. **It is not a guarantee of the best choice, but makes a safer choice**.
+Of course there will be a lot of times when not everybody will agree on which is the best option to go, but you have the responsibility to make consensus on what to do, even if there are people who thinks there are better options. I think this is hard, but it's worths it. This does not mean that everyone agrees with your vision, but to make sure they all know the "why". Even if you don't think the same way there are red lines from you and form others you'll never cross if consensuous is necessary. **It is not a guarantee of the best choice, but makes a safer choice**.
 
 Now you have **the way to go**.
 
@@ -65,9 +65,9 @@ If you use a software like Github, create a milestone and write the pieces as is
 
 ### 5. Go through the details
 
-Now that you have pieces clearly described, then make sure you can the complete the flow from the beginning to the end of the process without magic. Magic appears when you have a variable that comes from nowhere, when looks like you are able to store data in your database without a web controller, when you get a user input data without a proper view for the user enter that data, etc...
+Now that you have pieces clearly described, then make sure you can complete the flow from the beginning to the end of the process without magic. Magic appears when you have a variable that comes from nowhere, when looks like you are able to store data in your database without a web controller, when you get a user input data without a proper view for the user enter that data, etc...
 
-I only know one way to avoid this: write a detailed to-list before you code. Be as precise and rigorous as possible on doing this.
+I only know one way to avoid this: write a detailed to-do list before you code. Be as precise and rigorous as possible on doing this.
 
 Optionally, depending on your confident with the project and codebase, you can send it to review. If another member of the team can understand and validate your to-do list, you've done the most important part of the job.
 
@@ -92,7 +92,7 @@ Now you're almost copying from your to-do list. Perhaps a few things can come up
 
 ### 8. Review
 
-When you are done with code, a good practice is to send your changes to review. If you haven’t done this before, it can be hard at first, but the diffs at this point should be small, and your teammate will read easily your changes. You can define, with your team, a coding guideline and adopt a some code standard, this makes it even easier.
+When you are done with code, a good practice is to send your changes to review. If you haven’t done this before, it can be hard at first, but the diffs at this point should be small, and your teammate will read easily your changes. You can define, with your team, a coding guideline and adopt some code standard, this makes it even easier.
 
 With Github, you can send a pull request and assign someone to review. You can even assign yourself to look over it one last time. Of course, this point can be skipped if the change is too small...  
 *because we have a QA!*
