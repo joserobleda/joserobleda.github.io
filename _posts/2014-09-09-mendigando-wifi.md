@@ -19,7 +19,7 @@ Entonces pensé: *ey, quizás podría hacer **una app en la que todo el mundo fu
 
 #### WiFiMap
 
-![](http://www.wifimap.io/assets/2-iphone-right-6b1ae3901ff2eef62ebcb89c97e2db9b.png)
+![](/images/wifimap.png)
 
 La primera opción que he encontrado me parece muy interesante, se llama [WiFiMap](http://www.wifimap.io/) y tiene versión para iPhone y Android. Dicen tener más de 1.200.000 redes en su base de datos y más de 2.000.000 de descargas en la App Store. Su modelo de negocio es Freemium, en la versión free parece que te dejan hacer de todo, salvo tener la base de datos en local para poder realizar búsquedas y consultar el mapa. En la versión free sí tendremos la opción de listar, que resulta más que suficiente en la mayoría de los casos.
 
