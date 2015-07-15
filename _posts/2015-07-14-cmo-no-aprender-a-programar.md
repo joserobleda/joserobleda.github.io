@@ -3,7 +3,7 @@ layout: post
 title: "Cómo NO Aprender a Programar"
 modified:
 categories: development
-excerpt:
+excerpt: Hace poco me encontré, de casualidad, con este tweet: Y claro, decenas de dudas y pensamientos precipitados me vinieron a la cabeza en cuestión de segundos: ¿Qué pregunta es esa? ¿En que escenario podría tener sentido una pregunta así? Si esa es la pregunta... ¿Cuál era el contenido del curso? Pero no queda ahí
 comments: true
 tags: []
 image:
