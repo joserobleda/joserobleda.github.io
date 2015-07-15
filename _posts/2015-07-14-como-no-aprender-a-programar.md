@@ -33,6 +33,6 @@ Y me la juego, aunque creo que poco, diciendo que no es el único curso online q
 
 Creo que la cuestión a plantearnos es como orientar a gente que quiera ser autodidacta en este mundillo. Comentaba con mi compañero [Óscar](https://twitter.com/Osukaru80) que la clave es enseñar una base mínima para que cada persona pueda discernir el contenido de calidad de la morralla.
 
-Como no me gusta lanzar una crítica sin aportar una solución voy a tratar de plantear vías de iniciación para gente que tenga ganas de empezar a programar y que por un motivo u otro necesiten hacerlo de forma autónoma. Estoy seguro de que existen muchas alternativas, sin ir más lejos actualmente estoy involucrado en un proyecto muy interesante con la gente de [h4ckademy](http://www.h4ckademy.com/) y me parece una opción súper interesante para todo aquel que quiera comenzar y reciclarse. Y tu, **¿Qué recomendarías a quién te preguntara: "por dónde empiezo"?**
+Como no me gusta lanzar una crítica sin aportar una solución voy a tratar de plantear vías de iniciación para gente que tenga ganas de empezar a programar y que por un motivo u otro necesiten hacerlo de forma autónoma (en otro post). Estoy seguro de que existen muchas alternativas, sin ir más lejos actualmente estoy involucrado en un proyecto muy interesante con la gente de [h4ckademy](http://www.h4ckademy.com/) y me parece una opción súper interesante para todo aquel que quiera comenzar y reciclarse. Y tu, **¿Qué recomendarías a quién te preguntara: "por dónde empiezo"?**
 
 
