@@ -10,7 +10,7 @@ image:
   feature: feature-computer.jpeg
   credit: Rayi Christian Wicaksono
   creditlink: https://unsplash.com/mumolabs
-date: 2015-08-11T20:01:32+02:00
+date: 2015-08-30T12:01:32+02:00
 ---
 
 Me imagino de nuevo empezando a programar hoy en día. Estoy convencido de que sería mucho más complejo seleccionar fuentes de información de calidad de las que solo buscan sacarte el dinero, por ejemplo con "el curso definitivo para PHP6". Al menos sí lo comparo con lo que había cuando yo empece a formarme por mi cuenta, sobre el 2005.
