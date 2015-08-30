@@ -74,4 +74,4 @@ Aunque no los conozco de cerca los comentarios que se escuchan sobre ellos son b
 
 Seguro que me dejo miles de webs, vías y demás. Me gustaría ir completando este post con el tiempo y que pueda servir de referencia a la gente que esta empezando y se siente perdida. Seguro que a los que ya nos movemos en este mundo no nos parecerá gran cosa, pero espero que sea útil para el resto.
 
-**No dudes en corregir, añadir o completar cualquier cosa dejando un comentario!**
+**No dudes en corregir, añadir o completar cualquier cosa dejando un comentario!** o incluso **puedes [hacer un pull request directamente](https://github.com/joserobleda/joserobleda.github.io/edit/master/_posts/2015-08-30-alternativas-para-aprender-a-programar.md)**
