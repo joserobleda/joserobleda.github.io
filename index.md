@@ -1,6 +1,6 @@
 ---
 layout: home
-excerpt: "Tan solo un blog más. Comparto mis pensamientos y descubrimientos sobre tecnologíca, programación y alguna que otra divagación"
+excerpt: "Blog de Jose Ignacio Andrés. Escribo principalmente sobre programación y tecnología."
 tags: [blog, developer]
 image:
   feature: keys.jpg
