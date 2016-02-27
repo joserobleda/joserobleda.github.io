@@ -12,7 +12,7 @@ Parece que ya tenemos la versión definitiva de como se trabajará con módulos 
 
 El resultado es que nos acostumbraremos a ver cosas como estas:
 
-{% highlight css %}
+{% highlight js %}
 //------ lib.js ------
 export const sqrt = Math.sqrt;
 export function square(x) {
@@ -24,7 +24,7 @@ export function diag(x, y) {
 {% endhighlight %}
 
 
-{% highlight css %}
+{% highlight js %}
 import { square, diag } from 'lib';
 console.log(square(11)); // 121
 console.log(diag(4, 3)); // 5
@@ -32,7 +32,7 @@ console.log(diag(4, 3)); // 5
 
 Además de esta forma explícita de trabajar con módulos dispondremos de una API para la carga de estos:
 
-{% highlight css %}
+{% highlight js %}
 System.import(
     ['module1', 'module2'],
     function (module1, module2) {  // success
