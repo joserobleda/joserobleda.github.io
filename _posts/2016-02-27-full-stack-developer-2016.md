@@ -71,7 +71,7 @@ Dev Ops
 
 #### ¿Y el full-stack?
 
-En mi opinión quedará como un término más que como una realidad, aunque en cierto modo ya lo sea. Siempre habrá <span style="text-decoration:line-through;">gente</span> unicornios que sean capaces de cubrir muchos de estos roles a un nivel muy bueno, hay gente muy crack, pero la tendencia claramente indica que que cada vez nos especializaremos más, por lo que creo que al final nadie podrá ser un full-stack, no de manera literal.
+En mi opinión quedará como un término más que como una realidad, aunque en cierto modo ya lo sea. Siempre habrá <span style="text-decoration:line-through;">gente</span> unicornios que sean capaces de cubrir muchos de estos roles a un nivel muy bueno, hay gente muy crack, pero la tendencia claramente indica que cada vez nos especializaremos más, por lo que creo que al final nadie podrá ser un full-stack, no de manera literal.
 
 Pero en esencia, **el valor del programador *full-stack* es que al conocer todo el *stack* podrá facilitar el trabajo a sus compañeros**. No es necesario trabajar a diario con una tecnología para conocer sus conceptos básicos, sin embargo, esto sí nos permitirá mejorar el rendimiento del resto del equipo. Y esto sí que se puede conseguir, require mucho esfuerzo, formación y dedicación, pero ese será para mi el **full-stack developer** de ahora en adelante.
 
