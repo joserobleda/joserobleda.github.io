@@ -26,3 +26,9 @@ I've been searching for jobs offers I've published myself in the past few years,
 
 
 I'm not sure if having a more structured naming role system will benefit us at all, but I just found it as a curiosity about our profession. **So tell me, which position appears in your current email signature?**
+
+----
+
+#### Update 
+
+Doing a bit more reasearch, it seems there are a clear advantage: **prevent the misunderstanding of the role main resposabilities**. [Sanford Dickert explains it](https://medium.com/engineering-leadership/defining-roles-cto-and-or-vp-engineering-f1c7563643a3#.qcopfbnj4) very well, but in the CTO/VP of Engineer area.
