@@ -20,7 +20,7 @@ But how can we talk about what we are doing to the outside world? How can we exp
 
 What exactly is your answer? Maybe you're a developer, or a programmer, or maybe a coder. Other terms I usually see when I talk to people or receive emails are *Software Engineer*, *Software Architect*, sometimes it become more precise, like *Backend Software Developer* or things like that, and when the hype is really up, then the *Software Craftsman* appears. ;)
 
-There are roles in in the [Stack Overflow Developer Survey of 2016](http://stackoverflow.com/research/developer-survey-2016#developer-profile-programmers-engineers-and-developers) I can't even think someone will ever use to describe itself, like *Ninja*, *RockStar* or *Guru*. 
+There are roles in the [Stack Overflow Developer Survey of 2016](http://stackoverflow.com/research/developer-survey-2016#developer-profile-programmers-engineers-and-developers) I can't even think someone will ever use to describe itself, like *Ninja*, *RockStar* or *Guru*. 
 
 I've been searching for jobs offers I've published myself in the past few years, and I use roles like *Analist Programmer*, which in Spanish sounds a bit better (but not too much now), *Frontend Developer*, which fits in the "precise" group, or "UI/UX designer" in the design area (another universe of role names).
 
