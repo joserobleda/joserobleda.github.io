@@ -12,7 +12,7 @@ image:
 date: 2016-10-02T12:05:00+01:00
 ---
 
-Hay miles de posts que hablan sobre como funciona los sitemas de autenticación mediante OAuth, el típico *login con Facebook, Google, Github, loQueSea*. Sin embargo, en ciertas ocasiones, este tipo de soluciones no resuelven bien ciertos problemas. 
+Hay miles de posts que hablan sobre como funciona los sistemas de autenticación mediante OAuth, el típico *login con Facebook, Google, Github, loQueSea*. Sin embargo, en ciertas ocasiones, este tipo de soluciones no resuelven bien ciertos problemas. 
 
 
 ### Casi cualquier app necesita un backoffice
