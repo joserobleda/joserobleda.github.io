@@ -109,7 +109,7 @@ composer require lightsaml/sp-bundle
 {% endhighlight %} 
 
 {% highlight php %}
-<\?php
+<?php
 // app/AppKernel.php
 
 public function registerBundles()
