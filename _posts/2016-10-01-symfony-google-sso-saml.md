@@ -9,7 +9,7 @@ image:
   feature: feature-code.jpeg
   credit: Ilya Pavlov
   creditlink: https://unsplash.com/@ilyapavlov
-date: 2016-10-02T12:05:00+01:00
+date: 2016-10-02T16:40:00+01:00
 ---
 
 Hay miles de posts que hablan sobre cómo funcionan los sistemas de autenticación mediante OAuth, el típico *login con Facebook, Google, Github, loQueSea*. Sin embargo, en ciertas ocasiones, este tipo de soluciones no resuelven bien ciertos problemas. 
