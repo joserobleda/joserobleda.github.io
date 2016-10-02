@@ -12,21 +12,21 @@ image:
 date: 2016-10-02T12:05:00+01:00
 ---
 
-Hay miles de posts que hablan sobre como funciona los sistemas de autenticación mediante OAuth, el típico *login con Facebook, Google, Github, loQueSea*. Sin embargo, en ciertas ocasiones, este tipo de soluciones no resuelven bien ciertos problemas. 
+Hay miles de posts que hablan sobre cómo funcionan los sistemas de autenticación mediante OAuth, el típico *login con Facebook, Google, Github, loQueSea*. Sin embargo, en ciertas ocasiones, este tipo de soluciones no resuelven bien ciertos problemas. 
 
 
 ### Casi cualquier app necesita un backoffice
 
 A estas alturas ya casi todos nos hemos enfrentado a esto. Tenemos una app que hemos desarrollado pensando en que escale lo máximo posible, pero siempre hay un aspecto que require de una acción manual. Ya sea por un error o reglas de negocio, siempre aparece algo que nos genera la necesidad de crear un backoffice para ejecutar estas operaciones. Ante esto, el razonamiento más común suele ser:
 
-1. Problema: Tengo que realizar alguna operacion manual  
+1. Problema: Tengo que realizar alguna operación manual  
 --> Solución: Implementar un backoffice
 2. Problema: Gestión de los usuarios del backoffice  
 --> Solución: Utilizaré a los usuarios de mi app
-3. Problema: Controlar que usuarios de mi app acceso  
+3. Problema: Controlar que usuarios de mi app acceden  
 --> Solución: Aplicar roles solo a ciertos usuarios
 
-Nada del otro mundo, ¿verdad? Pues depende. **Si quieres cumplir con ciertas normativas** como la de la LOPD o ciertas normas ISO, desde el momento en que hagas esto **deberás describir todo tu sistema de gestión de usuarios en detalle**. Deberás describir desde qué es una contraseña segura y como te aseguras de que tus usuarios las usan, hasta el algoritmo de cifrado que usas para almacenarlas.
+Nada del otro mundo, ¿verdad? Pues depende. **Si quieres cumplir con ciertas normativas** como la de la LOPD o ciertas normas ISO, desde el momento en que hagas esto **deberás describir todo tu sistema de gestión de usuarios en detalle**. Deberás describir desde qué es una contraseña segura y cómo te aseguras de que tus usuarios las usan, hasta el algoritmo de cifrado que usas para almacenarlas.
 
 ¿Qué hay de malo en esto? Nada en absoluto en el aspecto técnico. Pero **no es un requisito de tu negocio y vas a tener que trabajar bastante en ello**. No pretendo que nadie descuide la seguridad de su aplicación, pero **existen otras opciones que aumentan la seguridad y que implican un coste menor**, tanto de implantación como de mantenimiento.
 
@@ -35,8 +35,8 @@ Nada del otro mundo, ¿verdad? Pues depende. **Si quieres cumplir con ciertas no
 
 O dicho más largo, *Single Sign On* con *Security Assertion Markup Language*. 
 
-**SAML es un estándar abierto para identificar y autorizar a usuarios entre un proveedor de indentidad y un proveedor de servicios**.
-En nuestro caso tenemos un *backoffice* que da servicio a los usuarios, así que tenemos claro quién es el proveedor de servicios, pero... ¿Quién jugaría el rol de proveedor de identidad? Pués depende.
+**SAML es un estándar abierto para identificar y autorizar a usuarios entre un proveedor de identidad y un proveedor de servicios**.
+En nuestro caso tenemos un *backoffice* que da servicio a los usuarios, así que tenemos claro quién es el proveedor de servicios, pero... ¿Quién jugaría el rol de proveedor de identidad? Pues depende.
 
 Dependiendo de cada proyecto, la base de usuarios que usará el backoffice podría ser diferente. Quizás te resultaría útil  que los usuarios provinieran de un LDAP o quizás directamente de Github. Una opción bastante común en las empresas es usar Google Apps, así que este será el proveedor de identidad que usaremos en este post.
 
@@ -44,7 +44,7 @@ La idea es implementar un sistema de login único, es decir, **utilizar el mismo
 
 ### Paso 1: Definiendo nuestra propia Google App
 
-Lo primero que debemos hacer crear una "custom app" en Google Apps. Desde el panel de adminsitración vamos a Apps y desde ahí a SAML apps:
+Lo primero que debemos hacer es crear una "custom app" en Google Apps. Desde el panel de adminsitración vamos a Apps y desde ahí a SAML apps:
 
 <img src="/images/saml-google-apps/apps.png" width="200px" />
 &nbsp; 👉 &nbsp;
@@ -58,7 +58,7 @@ Y en el modal, pulsamos en "Setup my own custom app"
 
 ![](/images/saml-google-apps/choose.png)
 
-En el siguiente paso optaremos por la opción 2, es decir, descargaremos el *IDP metadata*. Este archivo contiene la información necesaria para para poder configurar la autenticación de nuestra app. En este ejemplo vamos a guardar el fichero dentro de la carpeta de configuración de nuestra app Symfony en la ruta `app/config/saml/google-apps.com.xml`.
+En el siguiente paso optaremos por la opción 2, es decir, descargaremos el *IDP metadata*. Este archivo contiene la información necesaria para poder configurar la autenticación de nuestra app. En este ejemplo vamos a guardar el fichero dentro de la carpeta de configuración de nuestra app Symfony en la ruta `app/config/saml/google-apps.com.xml`.
 
 ![](/images/saml-google-apps/download.png)
 
@@ -70,8 +70,8 @@ El siguiente paso será configurar los datos del proveedor de servicio, es decir
 
 ![](/images/saml-google-apps/info.png)
 
-A continuación tenemos que introducir los relativos a nuestro backoffice.
-Google no da demasiados detalles de que significa cada campo en esta pantalla, pero tan solo dos datos son obligatorios:
+A continuación tenemos que introducir los datos relativos a nuestro backoffice.
+Google no da demasiados detalles de qué significa cada campo en esta pantalla, pero tan solo dos datos son obligatorios:
 
 **ACS (Assertion Consumer Service)**: Será la URL dónde se verificará si el login es correcto. Esta ruta la definiremos más adelante en nuestra app como `/backoffice/saml/login_check`
 
@@ -82,7 +82,7 @@ El resto de campos los dejaremos intactos. Es posible que según tus necesidades
 ![](/images/saml-google-apps/provider.png)
 
 
-Cómo último paso podremos configurar un mapeo entre los campos que utiliza Google y los que utilizaremos en nuestra app. Como en este caso no necesitamos ninguno especial, podemos continuar sin más y finializar con el proceso.
+Como último paso podremos configurar un mapeo entre los campos que utiliza Google y los que utilizaremos en nuestra app. Como en este caso no necesitamos ninguno especial, podemos continuar sin más y finializar con el proceso.
 
 ![](/images/saml-google-apps/mapping.png)
 
@@ -128,7 +128,7 @@ public function registerBundles()
 
 Tenemos que configurar el bundle con los parámetros necesarios. Necesitamos definir que "idp" (proveedor de identidad) usaremos. Para ello simplemente indicaremos el *path* del archivo *xml* que guardamos antes: `app/config/saml/google-apps.com.xml`
 
-También debemos indicar dónde se encuentran los certificados que permitirán que la autenticación se realice de forma segura.
+También debemos indicar donde se encuentran los certificados que permitirán que la autenticación se realice de forma segura.
 
 > No voy a entrar en detalle de como generar un certificado en este post. Con [googlear](https://www.google.es/search?q=how%20to%20generate%20crt%20key) un poco no tardarás en llegar a explicaciones sencillas como [esta](http://serverfault.com/a/224127)
 
@@ -162,11 +162,11 @@ En este caso añadimos el prefijo `/backoffice/saml` solo por mantener cierta se
 
 ##### Proveedor de usuarios
 
-Como hemos visto antes, SAML es un estándar para autenticar usuarios que privienen de un tercero, en este caso Google Apps. Sin embargo, a pesar de que los usuarios no están persistidos en nuestro sistema, **Symfony necesita una entidad *User*** con la que operar, por lo que necesitaremos instanciar un usuario en nuestra app para que todo funcione.
+Como hemos visto antes, SAML es un estándar para autenticar usuarios que provienen de un tercero, en este caso Google Apps. Sin embargo, a pesar de que los usuarios no están persistidos en nuestro sistema, **Symfony necesita una entidad *User*** con la que operar, por lo que necesitaremos instanciar un usuario en nuestra app para que todo funcione.
 
-Como vimos antes, en Google Apps es posible limitar el acceso a una app SAML sólo a ciertos usuarios, por lo que la opción más sencilla es implementar un *mock* como proveedor de usuarios exclusivo para este fin. 
+Como vimos antes, en Google Apps es posible limitar el acceso a una app SAML solo a ciertos usuarios, por lo que la opción más sencilla es implementar un *mock* como proveedor de usuarios exclusivo para este fin. 
 
-Sólo tenemos que crear una implementación sencilla de `UserProviderInterface`. **Es importante definir un rol custom** para poder identificar a estos usuarios más adelante, en este caso usamos **ROLE_ADMIN**.
+Solo tenemos que crear una implementación sencilla de `UserProviderInterface`. **Es importante definir un rol custom** para poder identificar a estos usuarios más adelante, en este caso usamos **ROLE_ADMIN**.
 
 {% highlight php %}
 <?php
@@ -250,11 +250,11 @@ security:
 
 Accediendo desde el browser a nuestra app, en la ruta `/backoffice` deberíamos encontrarnos que nos aparece el selector de cuentas de Google para indicar con que cuenta queremos iniciar sesión.
 
-Recuerda que **solo podrán hacer login con las cuentas del dominio** dónde configuramos la app, y solo la podrán usar aquellos usuarios para los que la activaste.
+Recuerda que **solo podrán hacer login con las cuentas del dominio** donde configuramos la app, y solo la podrán usar aquellos usuarios para los que la activaste.
 
 ### Reflexión final
 
-Esta es la primera vez que utilizo SAML y aún no estoy familiarizado con el estándar. Creo que este sistema de login no tiene ningún aspecto negativo, pero si le ves algún "pero", ya sea al estándar o esta implementación en particular, no dudes en enviarme un comentario.
+Esta es la primera vez que utilizo SAML y aún no estoy familiarizado con el estándar. Creo que este sistema de login no tiene ningún aspecto negativo, pero si le ves algún "pero", ya sea al estándar o a esta implementación en particular, no dudes en enviarme un comentario.
 
 Por cierto, he subido todos estos cambios [en un solo commit ](https://github.com/joserobleda/symfony-saml-example/commit/4b9be4809e78a924ed3aa8ed2e37263d07dd6360), por si así se ve más claro.
 
