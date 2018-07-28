@@ -12,4 +12,4 @@ image:
 date: 2016-10-20T16:40:00+01:00
 ---
 
-Read the full article here: https://medium.com/@developerdepueblo/what-i-mean-with-fullstack-ff73726ad88a
+Read the full article [here](https://medium.com/@developerdepueblo/what-i-mean-with-fullstack-ff73726ad88a).
